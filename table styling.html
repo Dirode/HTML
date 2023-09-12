@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <Title> Table styling</title>
-            <style>
-                table, th, td{
+        <!--Creating table and nesting table inside it-->
+            <style> 
+                table, th,td{
                     border: 1px solid black;
-                    border-collapse: collapse;
-                }
+                    }
             </style>
     </head>
     <body>
         <table>
             <tr>
-                <th> sl. no </th>
-                <th> Name </th>
-                <th> Std. no </th>
-                <th> department </th>
+                <th> A </th>
+                <th> B </th>
             </tr>
-                <tr>
-                    <th> 1 </th>
-                    <th> Sonam Tobden </th>
-                    <th> 05210232 </th>
-                    <th> IT </th>
-                </tr>
+            <tr>
+                <td> C </td>
+            <td>
+                <table border:2>
                     <tr>
-                        <th> 2 </th>
-                        <th> Pem Zam </th>
-                        <th> 05210239 </th>
-                        <th> Civil </th>
+                        <th>D</th>
+                        <th>E</th>
                     </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>G</td>
+                    </tr>
+                </table>
+            </td>
+            </tr>         
         </table>
     </body>
 </html>
