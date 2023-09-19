@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)file:///C:/Users/Sonam%20Dekar.DESKTOP-DLF4ESU/Downloads/table%20styling.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title> Table styling</title>
+            <style> 
+                table, th, td{
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    width: 50%;
+                   
+                    border-color: black;
+                    border-radius: 1px;
+                }
+                        tr:nth-child(odd) {
+                        background-color: lightsalmon;
+                        }
+                        th:nth-child(odd) {
+                            background-color:darkorange;
+                        }       
+            </style>
+    </head>
+    <body>
+        <table>
+            <tbody><tr>
+                <th> sl. no </th>
+                <th> Name </th>
+                <th> Std. no </th>
+                <th> department </th>
+            </tr>
+                <tr>
+                    <th> 1 </th>
+                    <th> Sonam Tobden </th>
+                    <th> 05210232 </th>
+                    <th> IT </th>
+                </tr>
+                    <tr>
+                        <th> 2 </th>
+                        <th> Pem Zam </th>
+                        <th> 05210239 </th>
+                        <th> Civil </th>
+                    </tr>
+                    <!--To merge cell in the table-->
+                    <tr>
+                        <td colspan="2">Total: 2</td>
+                    </tr>
+                    
+        </tbody></table>
+    
+
+
+</body></html>
